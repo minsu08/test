@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>간단한 레시피 사이트</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        input[type="text"], textarea {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>간단한 레시피 사이트</h1>
+    <form>
+        <label for="recipeName">레시피 이름:</label>
+        <input type="text" id="recipeName" name="recipeName"><br><br>
+
+        <label for="ingredients">재료:</label>
+        <textarea id="ingredients" name="ingredients"></textarea><br><br>
+
+        <label for="method">조리 방법:</label>
+        <textarea id="method" name="method"></textarea><br><br>
+
+        <button type="submit">레시피 업로드</button>
+    </form>
+    <br>
+    <form>
+        <label for="search">레시피 검색:</label>
+        <input type="text" id="search" name="search">
+        <button type="submit">검색</button>
+    </form>
+</body>
+</html>
